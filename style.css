@@ -1,0 +1,86 @@
+
+.background{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+
+.logo{
+    border-radius: 10px;
+    transition: 2s;
+    height: 150px;
+    
+   
+}
+
+
+.logo:hover{
+    border-radius: 10px;
+    transition: 2s;
+    filter: drop-shadow(2px 1px 1vh rgb(180, 183, 226));
+    height: 150px;
+    
+}
+
+  
+  /* Style dla mniejszych urządzeń, takich jak telefony komórkowe */
+  @media (max-width: 767px) {
+    .background{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        width: 2000px;
+        height: 1000;
+    }
+    
+    .logo{
+        border-radius: 10px;
+        transition: 2s;
+        height: 85px;
+    }
+
+    .logo:hover{
+        border-radius: 10px;
+        transition: 2s;
+        filter: drop-shadow(2px 1px 1vh rgb(180, 183, 226));
+        height: 85px;
+        
+    }
+  }
+  
+  /* Style dla tabletów */
+  @media (max-width: 768px) and (max-width: 1023px) {
+    .background{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        width: 1500px;
+        height: 1000px;
+    }
+    
+    .logo{
+        border-radius: 10px;
+        transition: 2s;
+        height: 65px;
+        
+       
+    }
+
+    .logo:hover{
+        border-radius: 10px;
+        transition: 2s;
+        filter: drop-shadow(2px 1px 1vh rgb(180, 183, 226));
+        height: 65px;
+        
+    }
+  }
+  
+
+  
+  
+  
